@@ -1,0 +1,39 @@
+.titulo{
+    color: red;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+.lista{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+}
+.item{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.itemImg{
+    width: 100px;
+}
+.itemName{
+    font-size: 18px;
+}
+
+.itemPrecio{
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+}
